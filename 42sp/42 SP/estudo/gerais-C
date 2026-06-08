@@ -1,0 +1,45 @@
+
+header
+instalar lib 
+ctrl + alt + h
+
+
+============================================================
+
+Verificar se uma string está vazia 
+while (url[0] != '\0');
+
+============================================================
+
+
+numero hexadecimal
+O sistema hexadecimal é uma base numérica de 16 dígitos (0-9 e A-F), 
+fundamental na computação para representar binários de forma compacta 
+(4 bits por caractere). Ele substitui números de 10-15 pelas letras A-F
+
+============================================================
+classes permitidas:
+
+
+
+============================================================
+============================================================
+Funcao utilizando ponteiro
+
+
+funcao com passagem por VALOR
+void imprimir(int num)
+{
+    ...
+}
+
+FUNCAO POR "REEFERENCIA"
+Nele não estou enviado o valor em si mas im um ENDERECO da memoria
+void imprimir(int *num)
+{
+    ...
+}
+============================================================
+============================================================
+============================================================
+============================================================

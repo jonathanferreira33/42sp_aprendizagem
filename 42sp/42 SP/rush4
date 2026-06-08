@@ -1,0 +1,81 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   rush04.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jonathfe <jonathfe@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/05 21:17:09 by jonathfe          #+#    #+#             */
+/*   Updated: 2026/04/05 21:19:03 by jonathfe         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include <unistd.h>
+
+void	ft_putchar(char c);
+void	rush(int x, int y);
+void	print_col(int quant_col, char l_init, char l_middle, char l_final);
+void	print_array(char *string);
+
+void	print_array(char *string)
+{
+	int	i;
+
+	i = 0;
+	while (string[i] != '\0')
+	{
+		ft_putchar(string[i]);
+		i++;
+	}
+}
+
+void	print_col(int quant_col, char l_init, char l_middle, char l_final)
+{
+	if (quant_col == 1)
+	{
+		ft_putchar(l_init);
+		ft_putchar('\n');
+	}
+	else
+	{
+		ft_putchar(l_init);
+		quant_col--;
+		while (quant_col > 1)
+		{
+			ft_putchar(l_middle);
+			quant_col--;
+		}
+		ft_putchar(l_final);
+		ft_putchar('\n');
+	}
+}
+
+void	rush(int x, int y)
+{
+	int		amount_lines;
+	char	*msg_error;
+
+	msg_error = "Fail!\n";
+	if ((x <= 0) || (y <= 0) || (x > 211))
+	{
+		print_array(msg_error);
+	}
+	else
+	{
+		amount_lines = y;
+		print_col(x, 'A', 'B', 'C');
+		if (y > 2)
+		{
+			while (amount_lines > 2)
+			{
+				print_col(x, 'B', ' ', 'B');
+				amount_lines--;
+			}
+		}
+		if (y >= 2)
+		{
+			print_col(x, 'C', 'B', 'A');
+		}
+	}
+}
+

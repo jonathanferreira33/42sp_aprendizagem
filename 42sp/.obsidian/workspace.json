@@ -11,26 +11,14 @@
             "id": "685148805a6b1cae",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "42 SP/Libft/01 Libft - Cronograma.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
-      },
-      {
-        "id": "68946c2073b222a3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2020e590bf19e30d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "01 Libft - Cronograma"
             }
           }
         ]
@@ -193,15 +181,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "1b280bb96bc9474c",
+  "active": "685148805a6b1cae",
   "lastOpenFiles": [
-    "42 SP/Listas C/epub/Lista VII.epub",
-    "42 SP/Listas C/epub/Lista VI.epub",
-    "42 SP/Listas C/epub/Lista V.epub",
-    "42 SP/Listas C/epub/Lista IV.epub",
-    "42 SP/Listas C/epub/Lista III.epub",
-    "42 SP/Listas C/epub/Lista II.epub",
-    "42 SP/Listas C/epub/Lista I.epub",
+    "42 SP/rush4",
+    "42 SP/shell/validacao/autoavaliacao-shell00/ex03/id_rsa_pub",
+    "42 SP/shell/validacao/autoavaliacao-shell00/ex03",
+    "42 SP/shell/validacao/autoavaliacao-shell00/ex02/test0/test6",
+    "42 SP/shell/validacao/autoavaliacao-shell00/ex04/midLS",
+    "42 SP/shell/validacao/autoavaliacao-shell00/ex05/git_commit.sh",
+    "42 SP/shell/validacao/autoavaliacao-shell00/ex00/z",
+    "42 SP/shell/validacao/autoavaliacao-shell00/ex02/test6",
+    "42 SP/shell/validacao/autoavaliacao-shell00/ex02/test5",
+    "42 SP/shell/validacao/autoavaliacao-shell00/ex02/test4",
+    "42 SP/shell/validacao/autoavaliacao-shell00/ex02/test3",
+    "42 SP/Libft/00 Libft.md",
     "42 SP/Listas C/Lista VII.md",
     "42 SP/Listas C/Lista VI.md",
     "42 SP/Listas C/Lista V.md",
@@ -210,14 +203,9 @@
     "42 SP/Listas C/Lista II.md",
     "42 SP/Listas C/Lista II - Mini projeto.md",
     "42 SP/Listas C/Lista I.md",
-    "42 SP/Listas C/epub",
-    "42 SP/Listas C",
     "42 SP/Libft/Memória Bruta (Raw Memory) e o Ponteiro Misterioso (void asterisco).md",
     "42 SP/Libft/Aritmética de Ponteiros.md",
     "42 SP/Libft/01 Libft - Cronograma.md",
-    "42 SP/Libft/00 Libft.md",
-    "42 SP/Libft",
-    "42 SP",
     "Welcome.md"
   ]
 }

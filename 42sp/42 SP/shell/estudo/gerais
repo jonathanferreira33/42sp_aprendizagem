@@ -1,0 +1,133 @@
+// Comandos interessantes
+
+man {NOME DO COMANDO} EX.: ls apresenta o manuel respectivo do comando solicitado
+man bash | acessar manual
+ls -l | lista arquivos e suas permissoes
+ls | lista arquivos
+ls -l /etc/?a* | Idem, arquivos cujo nome contém a como segunda letra
+ls -l /etc/*[0-9][0-9]* | arquivos contendo dois dígitos consecutivos
+
+ls -l | arquivos e suas permissoes
+ls -a | arquivos mais arquivos ocultos
+pwd | localizacao atual
+
+https://www.youtube.com/watch?v=uJtRpIo0-MI
+
+============================================================
+
+norminette
+
+============================================================
+
+Descompactar arquivo
+
+tar -xvf arquivo.tar
+
+============================================================
+
+
+Comando para abrir o diretorio atual no explorer
+
+xdg-open .
+
+
+============================================================
+
+
+Como criar arquivo com VI
+
+comando VI [nome do arquivo.sh] importante usar .sh
+para "print" comando echo
+
+exemplo de conteudo
+
+echo "====================================="
+echo ""
+echo "Texto qualquer"
+echo ""
+echo "====================================="
+
+para SAIR DO EDITOR VI
+preciona esc : w (para salvar) wq(salva e sai)
+
+depois aperta chmod +x [NOME DO ARQUIVO], assim da permissao ao arquivo
+
+comando ls -l [NOME DO ARQUIVO] para confirmar as permissoes
+
+============================================================
+
+TIPOS DE PERMISSAO
+Resumo Numérico (Octal) ordem:
+
+    r       w         x
+Leitura, Escrita e Execução 
+
+            -
+significa que nao tem nada
+
+
+7 (4+2+1): Leitura, Escrita e Execução (rwx).
+6 (4+2): Leitura e Escrita (rw-).
+5 (4+1): Leitura e Execução (r-x).
+4 Apenas Leitura (r--). 
+1 permissão --x
+0 ---
+
+chmod NUMERO [NOME DO ARQUIVO]
+
+TRUNCATE truncate - s [TAMANHO]  
+
+https://www.youtube.com/watch?v=TILkz2QwDos&t=284s
+
+============================================================
+
+mudar Hora
+touch -t MMDDhhmm nomedoarquivo
+
+mudar hora Link
+touch -h -d "2023-10-25 10:00:00" nome_do_link
+
+============================================================
+
+Link Simbólico (Soft Link) 
+
+comando:
+ln -s documento.txt referencia_documento.txt (se nao der certo inverte)
+
+Link diretório (hard Link)
+comando:
+ln 
+
+https://www.youtube.com/watch?v=iVWg7tOztEE
+
+============================================================
+
+ls -tmp
+-t classifica por tempo
+-m coloca uma virgula
+-p coloca uma barra caso seja uma pasta
+
+============================================================
+
+gerar chave
+
+ssh-keygen -t rsa -b 4096 -C "jonathfe@student.42sp.org.br"
+
+============================================================
+
+
+    git config --global user.name "jonathfe"
+    git config --global user.email jonathfe@student.42sp.org.br
+
+============================================================
+
+
+Compactar arquivo
+
+tar -cf testShell00.tar testShell00
+
+Descompactar arquivo
+
+tar -xvf arquivo.tar
+
+============================================================
